@@ -11,18 +11,23 @@ body {
 }
 
 .main-container {
-    width: fit-content;
+    width: 80vw;
     background-color: #040b0e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar-container {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
     align-items: center;
     justify-content: center;
     gap: 20px;
     height: 50px;
-    background-color: #040b0e
+    background-color: #040b0e;
+    margin-top: 25px;
+    margin-bottom: 75px;
 }
 
 .navbar-item {
@@ -42,21 +47,12 @@ body {
     color: yellow;
 }
 
-.movies-container {
-    display: grid;
-    grid-template-columns: repeat(5, 212px);
-    gap: 20px;
-    width: 1140px;
-    margin-top: 100px;
-}
-
-.series-container {
-    display: grid;
-    grid-template-columns: repeat(5, 212px);
-    gap: 20px;
-    width: 1140px;
-    margin-top: 100px;
-    margin-bottom: 100px
+.item-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 75px;
 }
 
 .item {
