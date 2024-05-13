@@ -1,0 +1,51 @@
+{
+    "movies" : [
+
+        {"date" : "06-05-2024", "name" : "Mira", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/mv2DFhsaLeNgFzNe2G5CJhzbrkt.jpg"},
+        {"date" : "09-07-2023", "name" : "Everything Everywhere All at Once", "image_url" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eb6pVUvLcF46gANiLGzoP9NDk3z.jpg"},
+        {"date" : "16-06-2023", "name" : "JUNG_E", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/z2nfRxZCGFgAnVhb9pZO87TyTX5.jpg"},
+        {"date" : "04-01-2023", "name" : "Troll", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9z4jRr43JdtU66P0iy8h18OyLql.jpg"},
+        {"date" : "12-10-2023", "name" : "Infinite", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tHZdoHLYQvKLFIBxcHN7vNr7U47.jpg"},
+        {"date" : "11-10-2023", "name" : "Old People", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gqpecbRFD7nS2TXaJACPczbDiev.jpg"},
+        {"date" : "02-10-2023", "name" : "Fight Club", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/yjMuqAyJUoQZGWsZ0vZuYj5inAR.jpg"},
+        {"date" : "12-09-2023", "name" : "Thor: Love and Thunder", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pJrupbmMan1SStJ18IVXiHMactU.jpg"},
+        {"date" : "03-09-2023", "name" : "Alive", "image_url" : "https://www.themoviedb.org/t/p/original/uw6rLtSGDtXkFU3zPcjR3jx779F.jpg"},
+        {"date" : "30-08-2023", "name" : "The Gray Man", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5Eom3JsXgQlCj6QIsGCwXkX7wyH.jpg"},
+        {"date" : "25-07-2023", "name" : "The Dark Knight Rises", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f1Lt6pJEb25LVEIodLxZDgIhTks.jpg"},
+        {"date" : "25-07-2023", "name" : "The Dark Knight", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ggax1nyhiGIwbq1Ynk0otH2sD6.jpg"},
+        {"date" : "14-07-2023", "name" : "Ölüler Vadisi", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/avokvOwhjVR9GgISsSSgb2A343G.jpg"},
+        {"date" : "14-06-2023", "name" : "The Adam Project", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg"},
+        {"date" : "12-06-2023", "name" : "Uncharted", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xseSYEjz5btrQIyJF4savdlz6Fl.jpg"}
+       
+    ],
+
+    "series" : [
+
+        {"date" : "00-04-2024", "name" : "Parasyte: The Grey", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rubaKfmdCvWGPXErgW9aQsgzKVr.jpg"},
+        {"date" : "00-04-2024", "name" : "3 Cisim Problemi", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lLu8cdhVJWovvi45tZB7bFcGxvI.jpg"},
+        {"date" : "00-00-2024", "name" : "Avatar: The Last Airbender", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg"},
+        {"date" : "00-00-2024", "name" : "One Piece", "image_url" : "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"},
+        {"date" : "30-06-2023", "name" : "Last of Us", "image_url" : "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/11/last-of-us-tv-1.png?ssl=1"},
+        {"date" : "20-06-2023", "name" : "Black Mirror", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg"},
+        {"date" : "20-05-2023", "name" : "Doctor Who", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xinqAmYrZ1TEwowcQhgTkZVtVE0.jpg"},
+        {"date" : "31-12-2022", "name" : "Gibi", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sOzTUfTc1djfZM46PgsjuOjs5U1.jpg"},
+        {"date" : "30-12-2022", "name" : "Alice in Borderland", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg"},
+        {"date" : "26-11-2022", "name" : "1899", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gZleGu1MQVBArH2dlpZ9CGi0hhy.jpg"},
+        {"date" : "21-11-2022", "name" : "Inside Job", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qwJUDMJ4i3KBYjeUFK9Js87iJEa.jpg"},
+        {"date" : "26-09-2022", "name" : "Titans", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oE23sq7mAiiDzmCIkPdFQAEuqsd.jpg"},
+        {"date" : "10-09-2022", "name" : "Lost in Space", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y8NJnTXzb4rio9uvVYFVrXEMofU.jpg"},
+        {"date" : "23-08-2022", "name" : "The Sandman", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/q54qEgagGOYCq5D1903eBVMNkbo.jpg"},
+        {"date" : "17-08-2022", "name" : "Fringe", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg"},
+        {"date" : "27-07-2022", "name" : "Black Summer", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/d27fZpY8jSZDOs1k0JCL0RY0b94.jpg"},
+        {"date" : "23-07-2022", "name" : "The Boys", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7Ns6tO3aYjppI5bFhyYZurOYGBT.jpg"},
+        {"date" : "14-07-2022", "name" : "The Umbrella Academy", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"},
+        {"date" : "10-07-2022", "name" : "Teen Wolf", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vY2vfAskJTiWsQSv6bdbNCQhPLm.jpg"},
+        {"date" : "08-06-2022", "name" : "Cennete Hoşgeldiniz", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/A15lH3BWh3GtbWObKhq82qvkwVj.jpg"},
+        {"date" : "31-05-2022", "name" : "In From the Cold", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/n1eL0iQiLx141MSVbDoY4B24Oqo.jpg"},
+        {"date" : "15-05-2022", "name" : "WandaVision", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/frobUz2X5Pc8OiVZU8Oo5K3NKMM.jpg"},
+        {"date" : "08-05-2022", "name" : "Upload", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aeCoVmyJqGR4gRndQEYK7ayTuni.jpg"},
+        {"date" : "21-04-2022", "name" : "Yakamoz S-245", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/11ur6ihlbYpl1HvKbFJBw1ox9YD.jpg"},
+        {"date" : "16-03-2022", "name" : "All of Us Are Dead", "image_url" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg"}
+        
+    ]
+}
