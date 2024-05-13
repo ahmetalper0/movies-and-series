@@ -1,4 +1,4 @@
-function create_item(image_src, image_name) {
+function create_item(image_src) {
 
     var item = document.createElement('div');
 
@@ -7,7 +7,7 @@ function create_item(image_src, image_name) {
     var image = document.createElement('img');
 
     image.src = image_src;
-    image.alt = image_name;
+    image.alt = 'image';
 
     item.appendChild(image);
 
@@ -15,30 +15,18 @@ function create_item(image_src, image_name) {
 
 }
 
-fetch('https://ahmetalper-movies-and-series.hf.space/all')
+fetch('https://ahmetalper-movies-and-series.hf.space/database')
 
     .then(response => response.json())
 
     .then(data => {
 
-        const movies = data.movies;
-        const series = data.series;
-
-        var movies_container = document.querySelector('.movies-container');
-        var series_container = document.querySelector('.series-container');
+        item_containers = document.querySelectorAll('.item-container');
 
         for (let i = 0; i < 10; i++) {
 
-            const movie = movies[i];
-            const serie = series[i];
-
-            var item = create_item(movie.image, movie.name);
-            
-            movies_container.appendChild(item);
-
-            var item = create_item(serie.image, serie.name);
-
-            series_container.appendChild(item);
+            item_containers[0].appendChild(create_item(data.movies[i].image_url));
+            item_containers[1].appendChild(create_item(data.series[i].image_url));
 
         }
 
