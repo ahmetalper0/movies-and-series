@@ -21,14 +21,40 @@ fetch('https://ahmetalper-movies-and-series.hf.space/database')
 
     .then(data => {
 
-        item_containers = document.querySelectorAll('.item-container');
+        var item_containers = document.querySelectorAll('.item-container');
 
-        for (let i = 0; i < 10; i++) {
+        var movie_count = 10;
+        var series_count = 10;
+        
+        data.forEach(item => {
 
-            item_containers[0].appendChild(create_item(data.movies[i].image_url));
-            item_containers[1].appendChild(create_item(data.series[i].image_url));
+            const [item_date, item_type, item_name, item_image_url] = item;
 
-        }
+            if (item_type == 'Movie') {
+
+                if (movie_count > 0) {
+
+                    item_containers[0].appendChild(create_item(item_image_url));
+
+                    movie_count = movie_count - 1
+
+                }
+
+            }
+
+            if (item_type == 'Series') {
+
+                if (series_count > 0) {
+
+                    item_containers[1].appendChild(create_item(item_image_url));
+
+                    series_count = series_count - 1
+
+                }
+
+            }
+            
+        });
 
     })
 
