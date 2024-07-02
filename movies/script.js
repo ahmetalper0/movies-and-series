@@ -15,19 +15,20 @@ function create_item(image_src) {
 
 }
 
-fetch('https://ahmetalper-movies-and-series.hf.space/database')
+fetch('https://ahmetalper-movies-and-series.hf.space/movies')
 
     .then(response => response.json())
 
     .then(data => {
 
-        const movies = data.movies;
-        const movie_container = document.querySelectorAll('.item-container')[0];
+        var item_containers = document.querySelectorAll('.item-container');
 
-        movies.forEach(movie => {
+        data.forEach(item => {
 
-            movie_container.appendChild(create_item(movie.image_url));
+            const [item_date, item_type, item_name, item_image_url] = item;
 
+            item_containers[0].appendChild(create_item(item_image_url));
+            
         });
 
     })
